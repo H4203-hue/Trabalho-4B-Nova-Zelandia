@@ -2,5 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+    font-size: 56px;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    border: none;
+    padding: 40px 80px 40px 80px;
+    font-size: 26px;
+    border-radius: 20px;
+    opacity: 60%;
+    
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+.sub {
+    font-size: 1rem;
+    color: #007EA7;
+}
+
+.negrito {
+    color: #000;
+    font-size: 1rem;
+}
+
+.nvz {
+    font-size: 8rem;
+}

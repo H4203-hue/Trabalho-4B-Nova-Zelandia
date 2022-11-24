@@ -1,30 +1,56 @@
 .menu {
-    width: 100%;
-    height: 60px;
-    float: left;
-    position: fixed;
-    background-color: #fff;
-    z-index: 9999;
-}
-
-.center {
-    width: 70%;
-    height: 60px;
-
-}
-
-.center ul {
-    width: 70%;
-    height: 60px;
-    float: left;
-}
-
-.center ul li {
-    width: 50px;
-    padding: 50px 60px;
-    list-style: none;
-    float: left;
+    display: flex;
     align-items: center;
-    color: #000;
-    font-size: 1rem;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.init {
+    background: url(../img/Background-init.jpg);
+    width: 100%;
+    height: 65rem;
+    left: 0px;
+    top: 96px;
+}
+
+.init h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20rem;
+}
+
+.init-s-background h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.init button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.informacoes {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0px 20rem 10px 15rem;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.informacoes-c-img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 0px 10rem 10px 5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.nvz {
+
 }
